@@ -6,26 +6,26 @@
 class Salvage < Formula
   desc "Restore-test your backups and attest the results"
   homepage "https://salvage.sh"
-  version "0.2.0"
+  version "0.2.1"
   license "FSL-1.1-ALv2"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/firerok/salvage/releases/download/v0.2.0/salvage_0.2.0_darwin_arm64.tar.gz"
-      sha256 "f5827e78649742f7a21b28f4451cf7a70f922688fc3818ae47d9c16e8f116be7"
+      url "https://github.com/firerok/salvage/releases/download/v0.2.1/salvage_0.2.1_darwin_arm64.tar.gz"
+      sha256 "d28f45ad1236c0538b3f588e3dbe358867cb2c3e2174d7c5f00a695ba1a01a50"
     else
-      url "https://github.com/firerok/salvage/releases/download/v0.2.0/salvage_0.2.0_darwin_amd64.tar.gz"
-      sha256 "a44fd17105258c036b351140e67a29be7839237a6602941ce51e321bbd2854e4"
+      url "https://github.com/firerok/salvage/releases/download/v0.2.1/salvage_0.2.1_darwin_amd64.tar.gz"
+      sha256 "e7c70ba291f522c4b2ed535ed7bc437df31ecfd7fbd483204a29d278db8add05"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/firerok/salvage/releases/download/v0.2.0/salvage_0.2.0_linux_arm64.tar.gz"
-      sha256 "b83f9b2578546d820061033a75646d4bb5fd655f263afb58e33a1714c55426c2"
+      url "https://github.com/firerok/salvage/releases/download/v0.2.1/salvage_0.2.1_linux_arm64.tar.gz"
+      sha256 "f6d0140c5f35c61977028cefd609eaa0221c1c8ae66e130aec82235ba9860a44"
     else
-      url "https://github.com/firerok/salvage/releases/download/v0.2.0/salvage_0.2.0_linux_amd64.tar.gz"
-      sha256 "2c28d2a34086e7d129a93373a5d268b1d4072353c8257b21d6c1a6ecdc8881bd"
+      url "https://github.com/firerok/salvage/releases/download/v0.2.1/salvage_0.2.1_linux_amd64.tar.gz"
+      sha256 "75c3285c6d18aac56afcebede84da75e64311e67dda2674a7263a5c53e567dbd"
     end
   end
 
